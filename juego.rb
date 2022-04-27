@@ -15,7 +15,7 @@
 usuario = ARGV[0].downcase
 
 if usuario == "piedra" || usuario == "papel" || usuario == "tijera" # PApEL
-    # aqui haremos la evalucion
+    # aqui haremos la evaluacion
     pc_random = rand(0..2)
     # si es 0 entonces es piedra, si es 1 entonces papel y 2 tijera.
     pc = "piedra" if pc_random == 0 
